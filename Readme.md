@@ -1,21 +1,40 @@
-# Grocery Sales Forecasting Challenge for Azubian
+# Adbot Ad Engagement Forecasting
 
 [![View Repositories](https://img.shields.io/badge/View-My_Repositories-blue?logo=GitHub)](https://github.com/ikoghoemmanuell?tab=repositories)
 [![View My Profile](https://img.shields.io/badge/MEDIUM-Article-purple?logo=Medium)]()
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-yellow)](https://huggingface.co/spaces/ikoghoemmanuell/SEER-A_sales_forecasting_app)
 [![Website](https://img.shields.io/badge/My-Website-darkgreen)](https://emmanuelikogho.netlify.app/)
-
-Increase sales of groceries using exploratory data analysis and machine learning.
-
-![Alt text](grocery-sales-challenge-readme-azubian-.gif)
+![alt text](image-2.png)
 
 ## Introduction
 
-This repository serves as a case study for the Grocery Store Forecasting Challenge for Azubian on Zindi Africa. The challenge focuses on predicting the sales of various products in grocery stores based on historical data. This case study explores the data, methodologies, and models used to tackle the challenge, providing insights into the predictive analytics process.
+This repository serves as a case study for the Adbot Click Prediction Challenge for Azubian on Zindi Africa. The challenge focuses on predicting the number of clicks a client's ad receives, one and two weeks into the future. This case study explores the data, methodologies, and models used to tackle the challenge, providing insights into the predictive analytics process.
+
+In a digital ecosystem saturated with advertisements, accurately predicting success is pivotal for businesses. Adbot aims to empower its small business clients with actionable insights to refine their ad campaigns and bolster customer engagement.
 
 ## Dataset
 
-The dataset used for this case study is provided on the Zindi Africa platform. It consists of historical sales data, product information, and store information. The dataset is utilized to build models that can accurately forecast future sales and help grocery stores optimize their inventory management and supply chain operations.
+The dataset used for this case study is provided on the Zindi Africa platform. It consists of daily ad records for 185 clients from the Adbot platform, including historical data on ad costs, number of impressions, keywords used, and call details. This data is utilized to build models that can accurately forecast future clicks, helping small African businesses optimize their advertising strategies and improve customer engagement.
+
+### Files
+
+- **Train.csv (36.5 MB)**: Contains historical ad performance data used to train the model.
+- **SampleSubmission.csv (14.8 KB)**: Shows the submission format for the competition, with columns for client IDs, dates, and forecasted clicks.
+
+### Objective
+
+The objective of this challenge is to accurately predict the number of clicks a client's ad receives, one and two weeks into the future. Winning solutions must also include a description of the variables that had the most significant impact on engagement (number of clicks), ensuring that models are not only accurate but also interpretable.
+
+### Evaluation
+
+The evaluation metric for this competition is Root Mean Squared Error (RMSE). Submission files should contain 7 columns: ID, Target, and the 5 top predictors. For each client, predictions are required for both one week and two weeks into the future.
+
+### About Adbot
+
+Adbot (myadbot.com) empowers small and medium-sized business owners by serving as an ultimate online advertising co-pilot. Its cutting-edge AI automation ensures 24/7 campaign management and optimization across multiple online channels, allowing businesses to achieve more with their ad campaigns.
+
+### Impact
+
+Accurate ad impression and click-through-rate forecasting can revolutionize marketing strategies for small African businesses leveraging the Adbot platform. By providing actionable insights, Adbot empowers clients to optimize their advertising efforts, improving customer engagement and driving business growth.
 
 ## Setup
 
@@ -46,7 +65,7 @@ The repository is organized as follows:
 
 Feel free to explore the notebooks and source code to gain a deeper understanding of the case study methodology.
 
-# to run the app
+# Contribute
 
 Fork this repository first of all. Now follow the steps below
 
@@ -70,27 +89,10 @@ The both long command-lines have a same structure, they pipe multiple commands u
 2. **Activate the Python's virtual environment** so that the Python kernel & libraries will be those of the isolated environment;
 3. **Upgrade Pip, the installed libraries/packages manager** to have the up-to-date version that will work correctly;
 
-change directory to where the app is located
+# My score on Zindi
 
-```python
-cd dev; cd app
-```
-
-to run app, install the requirements for the app,
-
-```python
-pip install streamlit transformers torch
-```
-
-then go to your terminal and run
-
-```python
-streamlit run app.py
-```
-
-# screenshot
-
-![Alt text](seer-sales-prediction-for-azubian.gif)
+![alt text](image.png)
+![alt text](image-1.png)
 
 ## 👏 Support
 
@@ -98,4 +100,4 @@ If you found this article helpful, please give it a clap or a star on GitHub!
 
 ## Author
 
-- [Emmanuel Ikogho](https://www.linkedin.com/in/emmanuel-ikogho/)
+- [Emmanuel Ikogho](https://emmanuelikogho.netlify.app/)
